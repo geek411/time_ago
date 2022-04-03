@@ -19,7 +19,7 @@ Automatically chooses the right units (seconds, minutes, etc) to format a time i
 Add this line to your application's Gemfile:
 
 
-```Gemfile
+```ruby
 gem 'a_moment_ago'
 ```
 
