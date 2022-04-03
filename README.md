@@ -30,10 +30,8 @@ gem install a_moment_ago
 ```
 
 # Usage 
-```ruby
 ### 1. Rails
-
-
+```ruby
 # app/controllers/appointments/appointments_ago.rb
 
 require "time_ago"
