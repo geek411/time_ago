@@ -32,7 +32,7 @@ gem install a_moment_ago
 # Usage 
 ```ruby
 
-1. Rails
+# 1. Rails
 
 # app/controllers/appointments/appointments_ago.rb
 
@@ -56,7 +56,7 @@ class AppointmentsController < ApplicationController
 end
 ```
 
-2. Ruby / PORO
+# 2. Ruby / PORO
 ```ruby
 # created_at.rb
 require 'time_ago'
