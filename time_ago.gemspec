@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
     s.name        = 'a_moment_ago'
-    s.version     = '1.1.1'
+    s.version     = '1.1.2'
     s.summary     = "Rendering time in words"
     s.description = "Rendering time in words, e.g. 'just now', '1 minute ago', '2 hours ago', etc."
     s.authors     = ["Webster Avosa"]

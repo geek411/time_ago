@@ -22,8 +22,17 @@ Add this line to your application's Gemfile:
 gem 'a_moment_ago'
 ```
 
+
+Or install it yourself
+
+```ruby
+gem install a_moment_ago
+```
+
 # Usage 
 ```ruby
+
+1. Rails
 
 # app/controllers/appointments/appointments_ago.rb
 
@@ -45,6 +54,21 @@ class AppointmentsController < ApplicationController
         render json: { "appointment_time": @appointment_time }, status: :ok
     end
 end
+```
+
+2. Ruby / PORO
+```ruby
+# created_at.rb
+require 'time_ago'
+
+class CreatedAtTime
+    def time_of_creation
+        @created = TimeAgo.new.time_ago
+    end
+end
+
+created_time = CreatedAtTime.new
+created_time.time_of_creation
 ```
 
 ## Contributing

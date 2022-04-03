@@ -41,5 +41,5 @@ class TimeAgo
     end
   end
   
-  created = TimeAgo.new
-  created.time_ago
+  # created = TimeAgo.new
+  # created.time_ago
