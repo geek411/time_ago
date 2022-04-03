@@ -47,7 +47,7 @@ end
 # app/controllers/appointments_controller.rb
 
 class AppointmentsController < ApplicationController
-    def exact_time
+    def create
         @appointment_time = Appointments::AppointmentsAgo.new.appontment_time
         render json: { "appointment_time": @appointment_time }, status: :ok
     end
