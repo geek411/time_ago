@@ -54,7 +54,7 @@ class AppointmentsController < ApplicationController
 end
 ```
 
-# 2. Ruby / PORO
+### 2. Ruby / PORO
 ```ruby
 ### created_at.rb
 require 'time_ago'
