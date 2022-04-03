@@ -32,8 +32,8 @@ require "time_ago"
 
 class Appointments::AppointmentsAgo
     # function defination for example
-    def time_ago
-        @appointment_last_visited = TimeAgo.new
+    def appontment_time
+        @appointment_last_visited = TimeAgo.new.time_ago
     end
 end
 
@@ -42,7 +42,7 @@ end
 
 class AppointmentsController < ApplicationController
     def exact_time
-        @appointment_time = Appointments::AppointmentsAgo.new.time_ago
+        @appointment_time = Appointments::AppointmentsAgo.new.appontment_time
         render json: { "appointment_time": @appointment_time }, status: :ok
     end
 end
