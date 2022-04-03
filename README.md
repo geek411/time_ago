@@ -9,8 +9,8 @@ Automatically chooses the right units (seconds, minutes, etc) to format a time i
  * 45 seconds ago
  * 15 minutes ago
  * 3 hours ago
- * 2 months ago
- * 5 years ago
+ * Yesterday at 2pm
+ * Monday at 7am
  * etc
 
 # Installation
@@ -47,7 +47,7 @@ end
 # app/controllers/appointments_controller.rb
 
 class AppointmentsController < ApplicationController
-    def exact_time
+    def create
         @appointment_time = Appointments::AppointmentsAgo.new.appontment_time
         render json: { "appointment_time": @appointment_time }, status: :ok
     end
