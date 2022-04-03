@@ -22,6 +22,12 @@ Add this line to your application's Gemfile:
 gem 'a_moment_ago'
 ```
 
+Then execute:
+
+```ruby
+bundle install
+```
+
 
 Or install it yourself
 
