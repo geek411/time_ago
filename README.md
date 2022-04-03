@@ -7,7 +7,6 @@ Automatically chooses the right units (seconds, minutes, etc) to format a time i
 # Examples:
  * just now
  * 45 seconds ago
- * 5m seconds ago
  * 15 minutes ago
  * 3 hours ago
  * 2 months ago
