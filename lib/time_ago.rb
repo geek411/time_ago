@@ -8,11 +8,11 @@ class TimeAgo
       if @now.sec === 0
         time = "just now"
       elsif @now.sec < 60
-        time = @now.sec.to_s + " sec ago"
+        time = @now.sec.to_s + " s ago"
       elsif @now.min === 0
-        time = @now.hour.to_s + " hrs ago"
+        time = @now.hour.to_s + " h ago"
       elsif @now.min < 60
-        time = @now.min.to_s + " min ago"
+        time = @now.min.to_s + " m ago"
       elsif @now.hour === 0
         time = "today at " + @now.hour.to_s + ":" + @now.min.to_s
       elsif @now.hour < 24
