@@ -6,9 +6,9 @@ Automatically chooses the right units (seconds, minutes, etc) to format a time i
 
 # Examples:
  * just now
- * 45 sec ago
- * 15 min ago
- * 3 hrs ago
+ * 45 s ago
+ * 15 m ago
+ * 3 h ago
  * Yesterday at 2pm
  * Monday at 7am
  * etc
