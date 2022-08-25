@@ -38,6 +38,8 @@ class TimeAgo
       end
   
       puts "#{time}"
+        
+        
     end
   end
   
